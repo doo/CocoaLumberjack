@@ -47,7 +47,7 @@ extension DDLogFlag {
 
 extension DDMultiFormatter {
     public var formatterArray: [DDLogFormatter] {
-        return self.formatters as [DDLogFormatter]
+        return self.formatters as! [DDLogFormatter]
     }
 }
 
