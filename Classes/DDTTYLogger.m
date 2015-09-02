@@ -77,6 +77,10 @@
 
 #define MAP_TO_TERMINAL_APP_COLORS 1
 
+DDColor* DDMakeColor(CGFloat r, CGFloat g, CGFloat b) {
+    return [DDColor colorWithRed:(r/255.0f) green:(g/255.0f) blue:(b/255.0f) alpha:1.0f];
+}
+
 
 @interface DDTTYLoggerColorProfile : NSObject {
     @public
