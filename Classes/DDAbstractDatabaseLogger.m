@@ -235,7 +235,7 @@
                 //
                 // If it has, we immediately save the log.
 
-                if ((_unsavedCount >= _saveThreshold) && (self->_saveThreshold > 0)) {
+                if ((self->_unsavedCount >= self->_saveThreshold) && (self->_saveThreshold > 0)) {
                     [self performSaveAndSuspendSaveTimer];
                 }
             }
