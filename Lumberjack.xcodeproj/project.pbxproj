@@ -1303,7 +1303,7 @@
 					};
 					19FF460E1B8B4D1400B43179 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1010;
 					};
 					55CCBEFE19BA679200957A39 = {
 						CreatedOnToolsVersion = 6.0;
@@ -1954,6 +1954,7 @@
 				PRODUCT_NAME = CocoaLumberjackSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = AppStoreFree;
@@ -2328,6 +2329,7 @@
 				PRODUCT_NAME = CocoaLumberjackSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = AppStorePro;
@@ -3026,6 +3028,7 @@
 				PRODUCT_NAME = CocoaLumberjackSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -3047,6 +3050,7 @@
 				PRODUCT_NAME = CocoaLumberjackSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
